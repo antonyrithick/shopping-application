@@ -1,0 +1,119 @@
+.card-nav{
+    background: lightblue;
+   display: flex;
+   justify-content: space-between;
+    padding: 5px;
+    color: blue;
+
+
+    .cart-info {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      
+      .cart-count {
+        position: absolute;
+        background-color: red;
+        color: white;
+        top: -2px;
+        border-radius: 50%;
+        padding: 5px 10px;
+        font-size: 12px;
+      }
+      
+    .logo{
+        display: flex;
+        padding-left: 20px;
+    }
+    img{
+        max-width: 80px;
+        max-height: auto;
+        cursor: pointer;
+        border-radius: 50px;
+    }
+
+
+.add-to-cart{
+    color: red;
+    border: none;
+    font-size: 24px;
+    background:none;
+    padding: 0px 20px;
+    i:hover{
+        background: lightblue;
+        color: green;
+    }
+}
+}
+.p-3{
+   display: flex;
+   flex-wrap: wrap;
+   row-gap: 20px;
+   column-gap: 10px;
+}
+
+.shopping{
+   
+
+.card{
+    max-width: 400px;
+    height: auto;
+
+    .header{
+        display: flex;
+        justify-content: center;
+        padding: 20px 0px;
+    }
+
+    .des{
+        background: linear-gradient(lightgray,rgb(226, 234, 237));
+        padding: 15px;
+        border-radius: 5px;
+    }
+    h6{
+        text-align: center;
+        color: rgb(37, 7, 171);
+        font-weight: 800;
+    }
+
+    .body,.footer{
+        padding: 10px;
+        text-align: justify;
+    }
+    h5{
+        color: rgb(19, 4, 62);
+    }
+    h4{
+        color: green;
+        text-align: left;
+        font-weight: bold;
+    }
+    .footer{
+        background: lightblue;
+        display: flex;
+        justify-content: space-between;
+
+        p{
+            color: red;
+            font-weight: 600;
+        }
+    }
+
+    .toggle-button{
+        color: blue;
+    }
+
+}
+
+
+
+}
+
+
+.card-footer{
+    background: lightblue;
+    text-align: center;
+    padding: 10px;
+}

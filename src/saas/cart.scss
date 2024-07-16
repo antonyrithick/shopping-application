@@ -1,0 +1,49 @@
+.cart{ 
+    padding: 20px;
+    background: linear-gradient(lightgray,rgb(220, 193, 147));
+
+
+    h2{
+        color: rgb(11, 9, 4);
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 2px 2px;
+    }
+    ul{
+        max-width: 600px;
+        height: auto;
+        margin: 10px;
+        li{
+           padding-top: 20px;
+           padding-bottom: 30px;
+           img{
+            margin-right: 30px;
+           }
+           
+        }
+    }
+    .total{
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+        color: rgb(191, 115, 29);
+        padding-right: 50px;
+        padding-bottom: 30px;
+        span{
+            color: rgb(16, 16, 15);
+            margin-left: 5px;
+        }
+       }
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(lightgray,white);
+    height: 100dvh;
+
+    .fa-spin{
+        color: green;
+    }
+}
